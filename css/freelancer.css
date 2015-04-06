@@ -4,6 +4,26 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@font-face {
+    font-family: 'earthnormal';
+    src: url('../fonts/earthnormal/Earth-Normal-webfont.eot');
+    src: url('../fonts/earthnormal/Earth-Normal-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/earthnormal/Earth-Normal-webfont.woff2') format('woff2'),
+    url('../fonts/earthnormal/Earth-Normal-webfont.woff') format('woff'),
+    url('../fonts/earthnormal/Earth-Normal-webfont.ttf') format('truetype'),
+    url('../fonts/earthnormal/Earth-Normal-webfont.svg#earthnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+}
+
 body {
     overflow-x: hidden;
 }
@@ -34,6 +54,7 @@ h6 {
     text-transform: uppercase;
     font-family: earthnormal,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    font-size: 1.4em;
 }
 
 hr.star-light,
@@ -176,7 +197,7 @@ section {
 
 section h2 {
     margin: 0;
-    font-size: 3em;
+    font-size: 2.0em;
 }
 
 section.success {
@@ -398,7 +419,7 @@ footer .footer-below {
 
 .portfolio-modal .modal-content h2 {
     margin: 0;
-    font-size: 3em;
+    font-size: 1.4em;
 }
 
 .portfolio-modal .modal-content img {
